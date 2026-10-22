@@ -1,0 +1,23 @@
+{
+  "name": "RoadLink",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": { "$path": "ReplicatedStorage/Shared" }
+    },
+    "ServerScriptService": {
+      "ServerBootstrap": { "$path": "ServerScriptService/ServerBootstrap.server.lua" },
+      "Services": { "$path": "ServerScriptService/Services" },
+      "Tests": { "$path": "ServerScriptService/Tests" }
+    },
+    "ServerStorage": {
+      "RoadLinkTools": { "$path": "ServerStorage/RoadLinkTools" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ClientBootstrap": { "$path": "StarterPlayer/StarterPlayerScripts/ClientBootstrap.client.lua" },
+        "Controllers": { "$path": "StarterPlayer/StarterPlayerScripts/Controllers" }
+      }
+    }
+  }
+}
