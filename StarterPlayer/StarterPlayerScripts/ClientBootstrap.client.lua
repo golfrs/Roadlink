@@ -5,6 +5,7 @@ local ClientState = require(Controllers:WaitForChild("ClientState"))
 local CameraController = require(Controllers:WaitForChild("CameraController"))
 local ConstructionController = require(Controllers:WaitForChild("ConstructionController"))
 local Hud = require(Controllers:WaitForChild("Hud"))
+local TrafficController = require(Controllers:WaitForChild("TrafficController"))
 
 task.spawn(function()
 	for _ = 1, 10 do
@@ -23,4 +24,5 @@ local deps = { state = ClientState, camera = CameraController, construction = Co
 Hud.init(deps)
 CameraController.init(deps)
 ConstructionController.init(deps)
+TrafficController.init(deps)
 ClientState.start()
